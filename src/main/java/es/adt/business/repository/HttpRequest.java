@@ -16,7 +16,7 @@ public class HttpRequest {
         return getResponse("https://rickandmortyapi.com/api/character/?species=alien&status=alive");
     }
 
-    public static List<Character> getCharacterWithMoreEpisodes() throws MalformedURLException {
+    public static List<Character> getCharacters() throws MalformedURLException {
 
         return getResponse("https://rickandmortyapi.com/api/character").getResults();
 
