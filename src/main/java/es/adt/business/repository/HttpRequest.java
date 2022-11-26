@@ -18,7 +18,7 @@ public class HttpRequest {
 
     public static List<Character> getCharacters() throws MalformedURLException {
 
-        return getResponse("https://rickandmortyapi.com/api/character").getResults();
+        return getResponse("https://rickandmortyapi.com/api/character/?gender=female").getResults();
 
     }
 
