@@ -24,7 +24,7 @@ Este JFrame contiene 2 botones los cuales si el usuario hace click se genera un 
 
 ### Boton aliens vivos
 
-Si el usuario hace click sobre este boton, se mostrará un jDialog que indicará la cantidad de aliens vivos
+Si el usuario hace click sobre este botón, se mostrará un jDialog que indicará la cantidad de aliens vivos
 y una lista con los nombres de todos los aliens.
 
 ![Screenshot](https://i.ibb.co/PDVRGL5/alien.png)
@@ -43,4 +43,4 @@ Mustra todos los datos acerca de este personaje. Los datos mostrados son:
 ![Screenshot](https://i.ibb.co/2ZQCXBt/female.png)
 ## Errores conocidos
 
-El unico error conocido es que en ambos jDialog (ver alienigenas vivos y mostrar personaje femenino), al cerrar la ventana la primera vez esta no cierra. Se debe de volver a cerrar la ventana para que esta finalmente se cierre.
+El único error conocido es que en ambos jDialog (ver alienígenas vivos y mostrar personaje femenino), al cerrar la ventana la primera vez esta no cierra. Se debe de volver a cerrar la ventana para que esta finalmente se cierre.
