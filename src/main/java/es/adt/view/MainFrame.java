@@ -36,10 +36,10 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setText("Ver personajes femeninos que han salido en ");
+        jLabel2.setText("Ver personaje femenino que ha ");
         jLabel2.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
 
-        jLabel3.setText("mayor numero de episodios:");
+        jLabel3.setText("salido en mas episodios:");
 
         femaleButton.setText("Ver");
         femaleButton.addActionListener(evt -> {
