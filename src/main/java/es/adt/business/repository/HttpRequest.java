@@ -10,9 +10,11 @@ import java.util.List;
 
 public class HttpRequest {
 
-    public static List<Response> getAliveAlien() throws MalformedURLException {
+    public static Response getAliveAlien() throws MalformedURLException {
 
         URL url;
+
+        Response response;
 
         try{
             url = new URL("https://rickandmortyapi.com/api/character/?species=alien&status=alive");
@@ -25,16 +27,13 @@ public class HttpRequest {
 
                 ) {
 
-            Response response = new Gson().fromJson(reader, Response.class);
+            response = new Gson().fromJson(reader, Response.class);
 
-            System.out.println(response);
+            return  response;
 
         } catch (Exception exc){
 
         }
-
-
-        Gson gson = new Gson();
 
         return null;
     }
