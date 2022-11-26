@@ -25,9 +25,7 @@ public class FemaleCharacterService {
             }
         });
 
-        System.out.println(characters);
-
-        return null;
+        return characters.get(0);
     }
 
 
